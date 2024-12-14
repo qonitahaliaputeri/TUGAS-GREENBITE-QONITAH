@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #6c757d !important; /* Warna abu-abu */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa !important;
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #6c757d; /* Warna abu-abu */
+    border: none;
+}
+
+button:hover {
+    background-color: #5a6268; /* Warna hover abu-abu lebih gelap */
+}
+
+button:active {
+    background-color: #4e555b; /* Warna klik abu-abu */
+}
+
+.alert {
+    margin-top: 1rem;
+}

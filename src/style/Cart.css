@@ -1,0 +1,48 @@
+/* styles.css */
+.navbar {
+  background-color: #6c757d !important; /* Warna abu-abu */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #f8f9fa !important;
+}
+
+.table {
+  margin-top: 30px;
+}
+
+.btn-update {
+  background-color: #fafcfd;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.btn-update img {
+  width: 20px;
+  height: 20px;
+}
+
+/* .btn-update:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+} */
+
+.btn-delete {
+  color: red;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.btn-delete:hover {
+  color: darkred;
+  cursor: pointer;
+}
+
